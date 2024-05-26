@@ -1,0 +1,30 @@
+.newsBoard {
+    background-color: #EEE;
+    min-height: calc(100vh - 72px);
+    position: relative;
+}
+
+.news {
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.location {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right:70px;
+    bottom: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+    opacity: .4;
+    transition: .4s;
+}
+
+.location:hover {
+    opacity: 1;
+}
